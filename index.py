@@ -4,33 +4,29 @@
 dna = 'AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC'
 
 #count A
-lstA = []
+count_A = 0
 for c in dna:
-    if c != 'A':
-        continue
-    lstA.append(c)
-print(len(lstA))
+    if c == 'A':
+        count_A += 1
+print(count_A)
 
 #count G
-lstG = []
+count_G = 0
 for c in dna:
-    if c != 'G':
-        continue
-    lstG.append(c)
-print(len(lstG))
+    if c == 'G':
+        count_G += 1
+print(count_G)
 
 #count C
-lstC = []
+count_C = 0
 for c in dna:
-    if c != 'C':
-        continue
-    lstC.append(c)
-print(len(lstC))
+    if c == 'C':
+        count_C += 1
+print(count_C)
 
 #count T
-lstT = []
+count_T = 0
 for c in dna:
-    if c != 'T':
-        continue
-    lstT.append(c)
-print(len(lstT))
+    if c == 'T':
+        count_T += 1
+print(count_T)
